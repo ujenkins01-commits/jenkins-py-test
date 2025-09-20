@@ -26,7 +26,7 @@ class TestAddNumbers(unittest.TestCase):
 # === Run Tests ===
 if __name__ == '__main__':
     # Run with JUnit-style report
-    with open('test-reports/junit-report.xml', 'wb') as output:
+    with open('junit-report.xml', 'wb') as output:
         unittest.main(testRunner=xmlrunner.XMLTestRunner(output=output), verbosity=2)
 
     # OR run without report:
