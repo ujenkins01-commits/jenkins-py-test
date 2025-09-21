@@ -1,2 +1,2 @@
 # jenkins-py-test
-test to integrate with jenkins job
+test to integrate with jenkins jobs
